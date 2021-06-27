@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDD with TestNG" duration-ms="24267" started-at="2021-06-27T17:12:26Z" finished-at="2021-06-27T17:12:50Z">
+    <groups>
+    </groups>
+    <test name="CucumberTestNG" duration-ms="24267" started-at="2021-06-27T17:12:26Z" finished-at="2021-06-27T17:12:50Z">
+      <class name="com.qa.runner.RunnerClass">
+        <test-method status="PASS" signature="setupClass()[pri:0, instance:com.qa.runner.RunnerClass@6e06451e]" name="setupClass" is-config="true" duration-ms="330" started-at="2021-06-27T17:12:26Z" finished-at="2021-06-27T17:12:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.runner.RunnerClass@6e06451e]" name="feature" duration-ms="23735" started-at="2021-06-27T17:12:26Z" description="Cucumber Feature" data-provider="getFeatures" finished-at="2021-06-27T17:12:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BDD Framework Demonstration]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.qa.runner.RunnerClass@6e06451e]" name="tearDownClass" is-config="true" duration-ms="73" started-at="2021-06-27T17:12:50Z" finished-at="2021-06-27T17:12:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qa.runner.RunnerClass -->
+    </test> <!-- CucumberTestNG -->
+  </suite> <!-- BDD with TestNG -->
+</testng-results>
